@@ -7,5 +7,5 @@ const schemaModel = new mongoose.Schema(
   },
   { timestamps: true }
 );
-const Food = mongoose.model("Food", schemaModel);
-module.exports = Food;
+const Foods = mongoose.model("Foods", schemaModel);
+module.exports = Foods;

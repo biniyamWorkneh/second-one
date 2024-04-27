@@ -4,8 +4,10 @@ const app = express();
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 const cors = require("cors");
+const cookies = require("cookies")
 const bodyParser = require("body-parser");
 const apiRoute = require("./routes/index");
+
 mongoose
   .connect(
     "mongodb+srv://biniyamworkneh777:bini1234@foods.dyeadv4.mongodb.net/?retryWrites=true&w=majority&appName=foods"
